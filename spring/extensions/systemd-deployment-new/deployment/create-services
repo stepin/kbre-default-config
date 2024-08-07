@@ -27,7 +27,7 @@ podman create --name %ARTIFACT% \
   -p 127.0.0.1:80:8080 \
   -e SPRING_PROFILES_ACTIVE=prod \
   -e SPRING_R2DBC_URL=r2dbc:postgresql://postgres:5432/%ARTIFACT%_dev \
-  -e SPRING_R2DBC_USERNAME=kotlin-bootstrap-app \
+  -e SPRING_R2DBC_USERNAME=%ARTIFACT% \
   -e 'SPRING_R2DBC_PASSWORD=SomeP2assword!@e' \
   -e SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/%ARTIFACT%_dev \
   -e SPRING_DATASOURCE_USERNAME=%ARTIFACT% \
