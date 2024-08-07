@@ -30,3 +30,9 @@ jooq {
         }
     }
 }
+tasks.named("jooqCodegen") {
+    dependsOn(tasks.named("flywayMigrate"))
+}
+tasks.named("compileKotlin") {
+    dependsOn(tasks.named("jooqCodegen"))
+}
