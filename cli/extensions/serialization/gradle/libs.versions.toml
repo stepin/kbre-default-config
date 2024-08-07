@@ -1,0 +1,5 @@
+[versions]
+kotlinxSerialization = "2.0.0"
+
+[plugins]
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinxSerialization" }

@@ -1,0 +1,9 @@
+# ide
+.idea
+.eclipse
+.vscode
+
+# Mac
+.DS_Store
+
+*.orig

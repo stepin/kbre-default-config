@@ -1,0 +1,10 @@
+[versions]
+jooq = "3.19.10"
+jooqKotlin = "3.19.10"
+
+[libraries]
+jooq-kotlin = { module = "org.jooq:jooq-kotlin",  version.ref = "jooqKotlin" }
+jooq-kotlin-coroutines = { module = "org.jooq:jooq-kotlin-coroutines",  version.ref = "jooqKotlin" }
+
+[plugins]
+jooq = { id = "org.jooq.jooq-codegen-gradle", version.ref = "jooq" }

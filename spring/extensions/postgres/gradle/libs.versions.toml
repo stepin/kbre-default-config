@@ -1,0 +1,6 @@
+[versions]
+postgresql = "42.7.2"
+
+[libraries]
+postgresql = { module = "org.postgresql:postgresql",  version.ref = "postgresql" }
+flyway-postgresql = { module = "org.flywaydb:flyway-database-postgresql", version.ref = "flyway" }

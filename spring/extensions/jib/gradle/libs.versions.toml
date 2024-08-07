@@ -1,0 +1,5 @@
+[versions]
+jib = "3.4.3"
+
+[plugins]
+jib = { id = "com.google.cloud.tools.jib", version.ref = "jib" }

@@ -1,0 +1,5 @@
+[versions]
+yamlkt = "0.13.0"
+
+[libraries]
+yamlkt = { module = "net.mamoe.yamlkt:yamlkt", version.ref = "yamlkt" }

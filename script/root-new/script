@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eEuo pipefail
+
+"$(dirname "$0")"/%ARTIFACT%.main.kts "$@"

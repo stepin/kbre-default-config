@@ -1,0 +1,1 @@
+    commonMainImplementation(libs.yamlkt)
