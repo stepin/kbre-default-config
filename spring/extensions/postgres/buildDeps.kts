@@ -1,0 +1,1 @@
+    classpath(libs.flyway.postgresql)

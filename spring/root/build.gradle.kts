@@ -30,7 +30,7 @@ configurations {
 buildscript {
     dependencies {
         classpath("org.yaml:snakeyaml:2.0")
-        classpath(libs.flyway.postgresql)
+%BUILD_DEPS%
     }
 }
 
