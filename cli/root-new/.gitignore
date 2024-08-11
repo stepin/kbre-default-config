@@ -21,16 +21,21 @@ out/
 ### Kotlin ###
 .kotlin
 
-# OSX
+### MkDocs ###
+/site
+
+### OSX ###
 .DS_Store
 
-# Vim
+### Vim ###
 *.swp
 *.swo
 
-# patch
+### Patch ###
 *.orig
 *.rej
 
-# Local environment
+### Local environment ###
 .env
+
+### Project specific ###
